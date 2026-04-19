@@ -60,6 +60,7 @@ public class Table implements Serializable
 /*---------------------------------------------------------------------------------------------------------------------*/
     //Helpers
 
+
     private void AddPageToList(){
         pages.add(new Page(this.noColumns));
     }

@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Page implements Serializable
 {
     private int bucketCount;
+    private final ArrayList<String[]> recordList;
 
     public int getBucketCount() {
         return bucketCount;
@@ -15,7 +16,7 @@ public class Page implements Serializable
         return recordList;
     }
 
-    private final ArrayList<String[]> recordList;
+
 
     public Page (int dataPageCount){
         this.bucketCount=dataPageCount;
